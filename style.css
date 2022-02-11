@@ -1,0 +1,35 @@
+.nav-item {
+  font-size: 12px;
+  zoom: 1.1;
+  background-color: #92b3fa;
+  margin: 1px;
+  color: #13a;
+}
+.nav-item:hover {
+  opacity: 75%;
+}
+.dropdown-item {
+  font-size: 12px;
+  background-color: #92b3fa;
+  margin: 1px;
+}
+.dropdown-item:hover {
+  opacity: 75%;
+}
+aside {
+  zoom: 0.9;
+}
+footer {
+  zoom: 0.9;
+}
+footer a {
+  text-decoration: none;
+}
+@media (max-width: 1200px) {
+  .nav-item {
+    font-size: 10px;
+  }
+  aside {
+    zoom: 0.5;
+  }
+}
